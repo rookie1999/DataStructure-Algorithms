@@ -17,6 +17,9 @@ public class MyArrayList<AnyType> implements IMyList<AnyType>{
         arrayList = (AnyType[]) new Object[DEFAULT_SIZE];
     }
     public MyArrayList(int capacity) {
+        if (capacity < 0) {
+            throw new IllegalArgumentException("Illegal capacity:" + capacity);
+        }
         arrayList = (AnyType[]) new Object[capacity];
     }
     @Override
@@ -169,11 +172,13 @@ public class MyArrayList<AnyType> implements IMyList<AnyType>{
      * 在增删完成之后，将表的容量和元素个数匹配
      */
     public void trimToSize() {
-        AnyType[] newArrayList = (AnyType[]) new Object[size];
-        for (int i = 0; i < size; i++) {
-            newArrayList[i] = arrayList[i];
+        if (size < arrayList.length) {
+            AnyType[] newArrayList = (AnyType[]) new Object[size];
+            for (int i = 0; i < size; i++) {
+                newArrayList[i] = arrayList[i];
+            }
+            arrayList = newArrayList;
         }
-        arrayList = newArrayList;
     }
 
     public void printList() {

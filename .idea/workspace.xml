@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cfb8007-ee09-41ca-a625-801293272eb1" name="Default Changelist" comment="" />
+    <list default="true" id="9cfb8007-ee09-41ca-a625-801293272eb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList$Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList$Iterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/MyArrayList.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +37,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -39,11 +49,13 @@
     </option>
   </component>
   <component name="ProjectId" id="1Tlfrwi0TBeyHx3BALtntl1hREf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Downloaded.Files.Path.Enabled" value="false" />
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/projects/op" />
@@ -64,9 +76,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyArrayListTest">
-    <configuration name="MyArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.MyArrayListTest" />
+  <component name="RunManager" selected="Application.ArrayListTest">
+    <configuration name="ArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.ArrayListTest" />
       <module name="data-structure&amp;algorithm" />
       <extension name="coverage">
         <pattern>
@@ -78,12 +90,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_MaxSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.chapter2_BigO._1_MaxSubsequence" />
+    <configuration name="MyArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.MyArrayListTest" />
       <module name="data-structure&amp;algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zhanguozhi.chapter2_BigO.*" />
+          <option name="PATTERN" value="cn.zhanguozhi.ADT.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ArrayListTest" />
         <item itemvalue="Application.MyArrayListTest" />
         <item itemvalue="Application._4_NumPower" />
         <item itemvalue="Application._3_GreatestCommonDivisor" />
         <item itemvalue="Application._2_BinarySearch" />
-        <item itemvalue="Application._1_MaxSubsequence" />
       </list>
     </recent_temporary>
   </component>
@@ -165,11 +177,25 @@
       <workItem from="1574990923110" duration="6085000" />
       <workItem from="1575249468788" duration="1699000" />
       <workItem from="1575337110029" duration="5636000" />
-      <workItem from="1575343079817" duration="2380000" />
+      <workItem from="1575343079817" duration="15755000" />
+      <workItem from="1575365863850" duration="1415000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
