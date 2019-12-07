@@ -1,8 +1,9 @@
 package cn.zhanguozhi.ADT;
 
 import java.util.ConcurrentModificationException;
+import java.util.NoSuchElementException;
 
-public class MyArrayList<AnyType> implements IMyList<AnyType>{
+public class MyArrayList<AnyType> implements IMyList<AnyType> {
 
     // 默认初始大小
     private static final int DEFAULT_SIZE = 10;
@@ -101,6 +102,29 @@ public class MyArrayList<AnyType> implements IMyList<AnyType>{
         arrayList[idx] = x;
         realModifiedCount++;
         size++;
+    }
+
+    public void addAll(Iterable<? extends AnyType> items) {
+        if (null == items) {
+            throw new IllegalArgumentException();
+        }
+        java.util.Iterator<AnyType> iter = (java.util.Iterator<AnyType>) items.iterator();
+        while (iter.hasNext()) {
+            addObject(iter.next());
+        }
+    }
+
+    public void removeAll(Iterable<? extends AnyType> items) {
+        if (null == items) {
+            throw new IllegalArgumentException();
+        }
+        java.util.Iterator<AnyType> iter = (java.util.Iterator<AnyType>) items.iterator();
+        while (iter.hasNext()) {
+            AnyType val = iter.next();
+            if (contains(val)) {
+                removeObject(val);
+            }
+        }
     }
     @Override
     public boolean removeObject(AnyType x) {
@@ -232,5 +256,112 @@ public class MyArrayList<AnyType> implements IMyList<AnyType>{
         }
     }
 
+    public java.util.ListIterator<AnyType> listIterator() {
+        return new ListIterator();
+    }
 
+    public java.util.ListIterator<AnyType> listIterator(int idx) {
+        return new ListIterator(idx);
+    }
+
+    private class ListIterator implements java.util.ListIterator<AnyType> {
+
+        private int index;
+        private int expectedModCount = realModifiedCount;
+        private AnyType lastReturned;
+        private int lastIndex = -1;
+
+        public ListIterator() {
+        }
+
+        public ListIterator(int index) {
+            this.index = index;
+        }
+
+        @Override
+        public boolean hasNext() {
+            return index != size();
+        }
+
+        @Override
+        public AnyType next() {
+            if (expectedModCount != realModifiedCount) {
+                throw new ConcurrentModificationException();
+            }
+            if (!hasNext())  {
+                throw new NoSuchElementException();
+            }
+            lastIndex = index;
+            lastReturned = arrayList[index++];
+            return lastReturned;
+        }
+
+        @Override
+        public boolean hasPrevious() {
+            return index != 0;
+        }
+
+        @Override
+        public AnyType previous() {
+            if (expectedModCount != realModifiedCount) {
+                throw new ConcurrentModificationException();
+            }
+            if (!hasPrevious())  {
+                throw new NoSuchElementException();
+            }
+            lastReturned = arrayList[--index];
+            lastIndex = index;
+            return lastReturned;
+        }
+
+        @Override
+        public int nextIndex() {
+            return index;
+        }
+
+        @Override
+        public int previousIndex() {
+            return index--;
+        }
+
+        @Override
+        public void remove() {
+            if (expectedModCount != realModifiedCount) {
+                throw new ConcurrentModificationException();
+            }
+            if (lastReturned == null) {
+                throw new IllegalStateException();
+            }
+            MyArrayList.this.removeObject(lastReturned);
+            expectedModCount++;
+        }
+
+        @Override
+        public void set(AnyType anyType) {
+            if (expectedModCount != realModifiedCount) {
+                throw new ConcurrentModificationException();
+            }
+            if (lastIndex < 0) {
+                throw new IllegalStateException();
+            }
+            MyArrayList.this.set(lastIndex, anyType);
+
+        }
+
+        // 在要被next访问的index处增加元素
+        @Override
+        public void add(AnyType anyType) {
+            if (expectedModCount != realModifiedCount) {
+                throw new ConcurrentModificationException();
+            }
+            try {
+                MyArrayList.this.add(index, anyType);
+                index++;
+                expectedModCount++;
+                lastIndex = -1;
+            } catch (IndexOutOfBoundsException e) {
+                throw new ConcurrentModificationException();
+            }
+        }
+    }
 }
