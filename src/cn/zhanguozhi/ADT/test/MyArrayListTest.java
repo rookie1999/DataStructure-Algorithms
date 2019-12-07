@@ -2,7 +2,9 @@ package cn.zhanguozhi.ADT.test;
 
 import cn.zhanguozhi.ADT.MyArrayList;
 
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class MyArrayListTest {
 
@@ -27,7 +29,7 @@ public class MyArrayListTest {
         Iterator<Integer> iterator = arrayList.iterator();
         while (iterator.hasNext()) {
             int value = iterator.next();
-            arrayList.addObject(3);
+//            arrayList.addObject(3);
             if (value == 5) {
                 iterator.remove();
             } else {
@@ -42,6 +44,20 @@ public class MyArrayListTest {
         System.out.println(arrayList.isEmpty());
         arrayList.clear();
         System.out.println(arrayList.isEmpty());
+        ArrayList<Integer> list = new ArrayList<>();
+        list.add(9999);
+        list.add(10000);
+        arrayList.addAll(list);
+        arrayList.printList();
+//        arrayList.removeAll(list);
+//        arrayList.printList();
+        ListIterator<Integer> listIter = arrayList.listIterator(arrayList.size());
+        while (listIter.hasPrevious()) {
+            System.out.print(listIter.previous() + " ");
+        }
+        System.out.println();
+
+
     }
 
 }

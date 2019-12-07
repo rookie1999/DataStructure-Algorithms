@@ -1,7 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9cfb8007-ee09-41ca-a625-801293272eb1" name="Default Changelist" comment="" />
+    <list default="true" id="9cfb8007-ee09-41ca-a625-801293272eb1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/test/MyLinkedListTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/chapter3_Connection/_3_11_MySinglySortedLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/chapter3_Connection/_3_1_PrintLots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/chapter3_Connection/_3_4_ListIntersection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/chapter3_Connection/_3_5_ListUnion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/chapter3_Connection/_3_6_Josephus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList$Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList$Iterator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/test/ArrayListTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/test/MyArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/test/MyArrayListTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/IMyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/IMyList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/MyArrayList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/test/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/test/MyArrayListTest.java" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +47,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -45,6 +65,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="E:/projects/op" />
@@ -65,7 +86,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyArrayListTest">
+  <component name="RunManager" selected="Application.MyLinkedListTest">
+    <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.LinkedListTest" />
+      <module name="data-structure&amp;algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhanguozhi.ADT.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MyArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.MyArrayListTest" />
       <module name="data-structure&amp;algorithm" />
@@ -79,12 +113,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_1_MaxSubsequence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.chapter2_BigO._1_MaxSubsequence" />
+    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.MyLinkedListTest" />
       <module name="data-structure&amp;algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zhanguozhi.chapter2_BigO.*" />
+          <option name="PATTERN" value="cn.zhanguozhi.ADT.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +126,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_2_BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.chapter2_BigO._2_BinarySearch" />
+    <configuration name="_3_11_MySinglySortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.chapter3_Connection._3_11_MySinglySortedLinkedList" />
       <module name="data-structure&amp;algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zhanguozhi.chapter2_BigO.*" />
+          <option name="PATTERN" value="cn.zhanguozhi.chapter3_Connection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,25 +139,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_GreatestCommonDivisor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.chapter2_BigO._3_GreatestCommonDivisor" />
+    <configuration name="_3_6_Josephus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.chapter3_Connection._3_6_Josephus" />
       <module name="data-structure&amp;algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zhanguozhi.chapter2_BigO.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_4_NumPower" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.chapter2_BigO._4_NumPower" />
-      <module name="data-structure&amp;algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zhanguozhi.chapter2_BigO.*" />
+          <option name="PATTERN" value="cn.zhanguozhi.chapter3_Connection.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -133,13 +154,16 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyLinkedListTest" />
         <item itemvalue="Application.MyArrayListTest" />
-        <item itemvalue="Application._4_NumPower" />
-        <item itemvalue="Application._3_GreatestCommonDivisor" />
-        <item itemvalue="Application._2_BinarySearch" />
-        <item itemvalue="Application._1_MaxSubsequence" />
+        <item itemvalue="Application._3_11_MySinglySortedLinkedList" />
+        <item itemvalue="Application._3_6_Josephus" />
+        <item itemvalue="Application.LinkedListTest" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -166,11 +190,29 @@
       <workItem from="1574990923110" duration="6085000" />
       <workItem from="1575249468788" duration="1699000" />
       <workItem from="1575337110029" duration="5636000" />
-      <workItem from="1575343079817" duration="2380000" />
+      <workItem from="1575343079817" duration="15755000" />
+      <workItem from="1575365863850" duration="1530000" />
+      <workItem from="1575509082925" duration="13930000" />
+      <workItem from="1575595562598" duration="19715000" />
+      <workItem from="1575681873855" duration="8365000" />
+      <workItem from="1575695146586" duration="12497000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
