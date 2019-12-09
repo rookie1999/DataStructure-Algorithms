@@ -2,22 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9cfb8007-ee09-41ca-a625-801293272eb1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/test/MyLinkedListTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/chapter3_Connection/_3_11_MySinglySortedLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/chapter3_Connection/_3_1_PrintLots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/chapter3_Connection/_3_4_ListIntersection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/chapter3_Connection/_3_5_ListUnion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/chapter3_Connection/_3_6_Josephus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/StackImplByArray.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/StackImplByLinkedList.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/test/StackImplByArrayTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/MyLinkedListWithLazyDeletion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/StackImplByArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/StackImplByLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/test/MyLinkedListWithLazyDeletionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/test/StackImplByArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/test/StackImplByLinkedListTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList$Iterator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList$Iterator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/MyArrayList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/test/ArrayListTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/test/MyArrayListTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/data-structure&amp;algorithm/cn/zhanguozhi/ADT/test/MyArrayListTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/IMyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/IMyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/MyArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/MyArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/test/MyArrayListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cn/zhanguozhi/ADT/test/MyArrayListTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +80,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyLinkedListTest">
+  <component name="RunManager" selected="Application.MyLinkedListWithLazyDeletionTest">
     <configuration name="LinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.LinkedListTest" />
       <module name="data-structure&amp;algorithm" />
@@ -100,8 +94,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyArrayListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.MyArrayListTest" />
+    <configuration name="MyLinkedListWithLazyDeletionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.MyLinkedListWithLazyDeletionTest" />
       <module name="data-structure&amp;algorithm" />
       <extension name="coverage">
         <pattern>
@@ -113,8 +107,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.MyLinkedListTest" />
+    <configuration name="StackImplByArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.StackImplByArray" />
+      <module name="data-structure&amp;algorithm" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.zhanguozhi.ADT.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackImplByArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.StackImplByArrayTest" />
       <module name="data-structure&amp;algorithm" />
       <extension name="coverage">
         <pattern>
@@ -126,25 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3_11_MySinglySortedLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.chapter3_Connection._3_11_MySinglySortedLinkedList" />
+    <configuration name="StackImplByLinkedListTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.ADT.test.StackImplByLinkedListTest" />
       <module name="data-structure&amp;algorithm" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.zhanguozhi.chapter3_Connection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="_3_6_Josephus" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cn.zhanguozhi.chapter3_Connection._3_6_Josephus" />
-      <module name="data-structure&amp;algorithm" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.zhanguozhi.chapter3_Connection.*" />
+          <option name="PATTERN" value="cn.zhanguozhi.ADT.test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,10 +148,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MyLinkedListTest" />
-        <item itemvalue="Application.MyArrayListTest" />
-        <item itemvalue="Application._3_11_MySinglySortedLinkedList" />
-        <item itemvalue="Application._3_6_Josephus" />
+        <item itemvalue="Application.MyLinkedListWithLazyDeletionTest" />
+        <item itemvalue="Application.StackImplByLinkedListTest" />
+        <item itemvalue="Application.StackImplByArrayTest" />
+        <item itemvalue="Application.StackImplByArray" />
         <item itemvalue="Application.LinkedListTest" />
       </list>
     </recent_temporary>
@@ -196,6 +190,8 @@
       <workItem from="1575595562598" duration="19715000" />
       <workItem from="1575681873855" duration="8365000" />
       <workItem from="1575695146586" duration="12497000" />
+      <workItem from="1575854619898" duration="11903000" />
+      <workItem from="1575872951694" duration="3038000" />
     </task>
     <servers />
   </component>
